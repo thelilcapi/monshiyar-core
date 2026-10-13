@@ -1,5 +1,7 @@
 <div align="center">
 
+*🇬🇧 [English version](README_EN.md)*
+
 # منشیار | MonshiYar
 
 ### ربات تلگرام پاسخ‌گوی هوشمند کسب‌وکارها — جایگزین منشی، بدون حقوق ماهانه!
