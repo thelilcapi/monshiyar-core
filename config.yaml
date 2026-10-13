@@ -1,0 +1,24 @@
+# تنظیمات منشیار | MonshiYar — نسخه عمومی (Community)
+# توکن ربات را داخل فایل .env بگذارید (از روی .env.example کپی کنید)
+
+bot:
+  token_env: "BOT_TOKEN"
+  name: "منشیار"
+
+# فایل دانش کسب‌وکار
+knowledge:
+  path: "knowledge.json"
+
+# قوانین نگارشی پاسخ‌ها (true یعنی فعال)
+rules:
+  no_punctuation: true     # بدون علائم نگارشی
+  no_english_terms: true    # بدون واژه‌های انگلیسی
+  no_numbering: true        # بدون شماره‌گذاری خاص
+  single_line: true         # تک‌خط، بدون رفتن به خط بعد
+  no_emoji: true            # بدون ایموجی
+
+matching:
+  threshold: 0.4           # حداقل امتیاز برای پذیرش تطبیق
+  keyword_weight: 0.6
+  fuzzy_weight: 0.4
+  fallback_answer: "پیام شما ثبت شد کارشناسان ما به زودی پاسخ می دهند"
