@@ -45,8 +45,8 @@
 **۲. نصب**
 
 ```bash
-git clone https://github.com/thelilcapi/monshiyar.git
-cd monshiyar
+git clone https://github.com/thelilcapi/monshiyar-core.git
+cd monshiyar-core
 python3 -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
@@ -95,7 +95,7 @@ python3 cli.py
 ## ⚙️ ساختار پروژه
 
 ```
-monshiyar/
+monshiyar-core/
 ├── bot.py              نقطه ورود ربات تلگرام
 ├── cli.py              پنل ساده ترمینال
 ├── core/
